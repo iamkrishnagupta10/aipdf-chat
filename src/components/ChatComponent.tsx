@@ -41,8 +41,8 @@ const ChatComponent = ({ chatId }: Props) => {
   return (
     <div className="relative flex flex-col h-screen border border-black">
       {/* Chat Header */}
-      <header className="p-2 bg-white border-b border-black">
-        <h3 className="text-xl font-bold">Chat</h3>
+      <header className="p-4 bg-slate-200 border-b border-black">
+        <h3 className="text-xl font-bold">Chat History</h3>
       </header>
 
       {/* List of Messages */}
@@ -51,7 +51,7 @@ const ChatComponent = ({ chatId }: Props) => {
       </section>
 
       {/* Chat Input Form */}
-      <footer className="p-2 bg-white shadow-md border-t border-black">
+      <footer className="p-2 bg-slate-200 border-t border-black">
         <form onSubmit={handleSubmit} className="flex">
           {/* Chat Input Field */}
           <Input
@@ -61,7 +61,7 @@ const ChatComponent = ({ chatId }: Props) => {
             className="flex-grow mr-2"
           />
           {/* Send Button */}
-          <Button className="bg-black">
+          <Button>
             <Send className="h-4 w-4" />
           </Button>
         </form>

@@ -17,11 +17,11 @@ type Props = {
 const ChatSideBar = ({ chats, chatId, isPro }: Props) => {
   const [loading, setLoading] = React.useState(false);
   return (
-    <div className="w-full h-screen p-4 bg-black">
+    <div className="w-full h-screen p-4 bg-primary">
       <Link href="/">
-        <Button className="w-full">
+        <Button className="border border-white hover:bg-slate-600 w-full h-10">
           <PlusCircle className="mr-2 w-4 h-4" />
-          New Chat
+          Start New Chat
         </Button>
       </Link>
 
@@ -29,8 +29,8 @@ const ChatSideBar = ({ chats, chatId, isPro }: Props) => {
         {chats.map((chat) => (
           <Link key={chat.id} href={`/chat/${chat.id}`}>
             <div
-              className={cn("rounded-lg p-3 text-zinc-300 flex items-center", {
-                "bg-zinc-800 text-white": chat.id === chatId, // Changed bg-blue-600 to bg-black
+              className={cn("rounded-lg p-3 text-stone-300 flex items-center", {
+                "bg-slate-500": chat.id === chatId,
                 "hover:text-white": chat.id !== chatId,
               })}
             >
@@ -44,7 +44,7 @@ const ChatSideBar = ({ chats, chatId, isPro }: Props) => {
       </div>
 
       <div className="absolute bottom-4 left-4">
-        <div className="flex items-center gap-2 text-sm text-slate-500 flex-wrap">
+        <div className="flex items-center gap-2 text-sm text-white p-1 flex-wrap">
           <Link href="/">Home</Link>
         </div>
         <SubscriptionButton isPro={isPro} />
