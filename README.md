@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📖 Chat Magic 🤖
 
-## Getting Started
+ChatMagic is a groundbreaking platform that offers users a seamless experience, allowing them to interact with a chatbot expert in CPA, Real Estate, and the Housing market in Canada. By leveraging the power of OpenAI's GPT-4, our AI assistant provides accurate and detailed answers to user queries.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Personalized Chat Experience**: Log in and have the AI remember and refer to your context across sessions.
+- **PDF Integration**: Upload your PDFs and get real-time answers from their content.
+- **Expertise in Multiple Domains**: Whether it's CPA, Real Estate, or anything else related to the Canadian Housing market, our AI has got you covered!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/iamkrishnagupta10/aipdf-chat.git
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the directory:
+    ```bash
+    cd aipdf-chat
+    ```
 
-## Learn More
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the project:
+    ```bash
+    npm start
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js for server-side rendering and static site generation.
+- OpenAI's GPT-4 for chatbot functionality.
+- Pinecone and Vercel integrations.
+- Database management with `drizzle-orm`.
 
-## Deploy on Vercel
+## 🙌 Contribution
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are always welcome! Please get in touch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Acknowledgements
+
+- **Krishna Gupta** - Founder and developer of AI-PDF Chat. Follow him on [LinkedIn](https://www.linkedin.com/in/llt-misty/).
+- **Empire Foundation** - For their endless support and funding. They've been instrumental in bringing this project to life.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 📞 Contact
+
+For any queries or feedback, feel free to reach out to Krishna Gupta at iamKrishnaGupta10@gmail.com.
+
+---
