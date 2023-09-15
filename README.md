@@ -43,7 +43,7 @@ Contributions are always welcome! Please get in touch.
 
 ## 🤝 Acknowledgements
 
-- **Krishna Gupta** - Founder and developer of AI-PDF Chat. Follow him on [LinkedIn]([https://twitter.com/your_twitter_handle](https://www.linkedin.com/in/llt-misty/).
+- **Krishna Gupta** - Founder and developer of AI-PDF Chat. Follow him on [LinkedIn](https://www.linkedin.com/in/llt-misty/).
 - **Empire Foundation** - For their endless support and funding. They've been instrumental in bringing this project to life.
 
 ## 📜 License
@@ -52,6 +52,6 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 
-For any queries or feedback, feel free to reach out to Krishna Gupta at [iamKrishnaGupta10@gmail.com].
+For any queries or feedback, feel free to reach out to Krishna Gupta at iamKrishnaGupta10@gmail.com.
 
 ---
