@@ -1,7 +1,3 @@
-
-
----
-
 # 📖 Chat Magic 🤖
 
 ChatMagic is a groundbreaking platform that offers users a seamless experience, allowing them to interact with a chatbot expert in CPA, Real Estate, and the Housing market in Canada. By leveraging the power of OpenAI's GPT-4, our AI assistant provides accurate and detailed answers to user queries.
@@ -43,21 +39,19 @@ ChatMagic is a groundbreaking platform that offers users a seamless experience, 
 
 ## 🙌 Contribution
 
-Contributions are always welcome! See the [contribution guide](CONTRIBUTING.md) for more details.
+Contributions are always welcome! Please get in touch.
 
 ## 🤝 Acknowledgements
 
-- **Krishna Gupta** - Founder and developer of AI-PDF Chat. Follow him on [Twitter](https://twitter.com/your_twitter_handle) or check out his [GitHub](https://github.com/iamkrishnagupta10).
+- **Krishna Gupta** - Founder and developer of AI-PDF Chat. Follow him on [LinkedIn]([https://twitter.com/your_twitter_handle](https://www.linkedin.com/in/llt-misty/).
 - **Empire Foundation** - For their endless support and funding. They've been instrumental in bringing this project to life.
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 📞 Contact
 
-For any queries or feedback, feel free to reach out to Krishna Gupta at [your_email@example.com](mailto:your_email@example.com).
+For any queries or feedback, feel free to reach out to Krishna Gupta at [iamKrishnaGupta10@gmail.com].
 
 ---
-
-Please make sure to replace the placeholders (like the banner URL, Twitter handle, email, etc.) with actual links or information. Also, consider adding any other relevant sections or details that would better represent your project!
