@@ -47,7 +47,7 @@ const ChatComponent = ({ chatId }: Props) => {
 
       {/* List of Messages */}
       <section className="flex flex-col-reverse flex-grow overflow-y-auto p-4">
-        <MessageList messages={messages} />
+        <MessageList messages={messages} isLoading ={isLoading}/>
       </section>
 
       {/* Chat Input Form */}

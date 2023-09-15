@@ -1,12 +1,23 @@
 import { cn } from "@/lib/utils";
 import { Message } from "ai/react";
+import { Loader2 } from "lucide-react";
 import React from "react";
 
 type Props = {
   messages: Message[];
+  isLoading: boolean;
 };
 
-const MessageList = ({ messages }: Props) => {
+const MessageList = ({ messages, isLoading }: Props) => {
+  
+  if (isLoading){
+    return (
+      <div className="absolute top 1/2 left 1/2 -translate-x-1/2 -translate-y-1/2">
+        <Loader2 className="w-6 h-6 animate-spin"/>
+      </div>
+    )
+  }
+  
   if (!messages) return <></>;
 
   return (
@@ -22,10 +33,10 @@ const MessageList = ({ messages }: Props) => {
           >
             <div
               className={cn(
-                "rounded-lg px-3 py-1 text-sm shadow-md",
+                "rounded-lg px-3 py-1 text-sm",
                 {
                   "border border-black text-black": message.role === "user",
-                  "bg-black text-white": message.role === "assistant",
+                  "bg-black border-white text-white": message.role === "assistant",
                 }
               )}
             >

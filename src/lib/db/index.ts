@@ -10,3 +10,7 @@ if (!process.env.DATABASE_URL) {
 const sql = neon(process.env.DATABASE_URL)
 
 export const db = drizzle(sql)
+
+/* Push command: /aipdf-chat (main)  
+$ npx drizzle-kit push:pg 
+*/
